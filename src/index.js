@@ -13,7 +13,7 @@ function makeTask (task){
   let li = document.createElement('li');
   let button = document.createElement('button')
   button.addEventListener('click', deleteTask)
-  button.textContent = "x"
+  button.textContent = "DELETE"
   li.textContent = task + " "
   li.appendChild(button)
   document.getElementById("tasks").appendChild(li)
